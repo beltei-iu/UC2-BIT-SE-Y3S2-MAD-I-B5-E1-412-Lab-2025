@@ -39,18 +39,18 @@ void main(){
   // print("Right Shift: ${p >> 1}"); // 1
   
   // Assignment Operators
-  // dynamic c = 10;
-  // print("C: $c");
-  // c += 2; // c = c + 2
-  // print("C: $c");
-  // c -= 2; // c = c - 2
-  // print("C: $c");
-  // c *= 2; // c = c * 2
-  // print("C: $c");
-  // c /= 2; // c = c / 2
-  // print("C: $c");
+  int c = 10;
+  print("C: $c");
+  c += 2; // c = c + 2
+  print("C: $c");
+  c -= 2; // c = c - 2
+  print("C: $c");
+  c *= 2; // c = c * 2
+  print("C: $c");
+  c ~/= 2; // c = c ~/ 2
+  print("C: $c");
 
   // Conditional Operators
-  bool single = true;
-  print("Status: ${single ? 'Single' : 'Married'}");
+  // bool single = true;
+  // print("Status: ${single ? 'Single' : 'Married'}");
 }
