@@ -52,16 +52,18 @@ void main(){
 
   // Break and Continue
 
-  // for(int i = 0; i <= 5; i++){
-  //   if(i == 3){
-  //     continue;
-  //   }
-  //   print("The number : $i");
-  // }
+  for(int i = 1; i <= 5; i++){
+    if(i == 3){
+      continue;
+    }
+    print("The number : $i");
+  }
+
+  print("==========");
 
 
-  for(int i = 0; i <= 5; i++){
-    if(i >= 3){
+  for(int i = 1; i <= 5; i++){
+    if(i == 3){
       break;
     }
     print("The number : $i");
